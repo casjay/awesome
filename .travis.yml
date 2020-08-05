@@ -1,0 +1,56 @@
+language: node_js
+sudo: true
+
+node_js:
+  - "node"
+
+cache:
+  directories:
+    - bundle
+rvm:
+  - 2.4.0
+  - 2.3.3
+  - 2.1.9
+  - 2.0
+
+bundler_args: "--without documentation --path bundle"
+
+before_install:
+  - rvm install 2.2
+  - gem install awesome_bot
+  - sudo apt-get update -qq 
+  - sudo apt-get install -y -qq lsb-release wget bash
+  - sudo wget https://github.com/mike42/mdcheckr/releases/download/v1.2/mdcheckr_1.2-1_all.deb 
+  - sudo dpkg -i mdcheckr_1.2-1_all.deb && sudo sudo apt-get -f install
+  - git fetch --depth=1000000
+  - gem install bundler
+
+addons:
+  apt:
+    packages:
+      - pandoc
+      - libxml2-utils
+      - devscripts
+      - build-essential
+      - lintian
+      - debhelper
+      - git 
+      - wget
+      
+before_script:
+
+
+after_install:
+  - rake install
+
+script:
+  - find . -name '*.md' -print0 | xargs -0 mdcheckr || (exit 0)
+  - git diff master.. -U0 README.md | grep -Pos "(?<=^\+).*" >> temp.md || (exit 0)
+  - node ./script/test.js temp.md || (exit 0)
+  - awesome_bot temp.md --allow-redirect || (exit 0)
+  - git config --global user.email "travis-ci@casjaysdev.com"
+  - git config --global user.name "Travis-CI Test"
+  
+notifications:
+  email: false
+
