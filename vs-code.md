@@ -3,14 +3,14 @@
 <div align="center">
   <img width="380px" src="https://raw.githubusercontent.com/viatsko/awesome-vscode/master/awesome-vscode-logo.png">
 </div>
-<br/>
+
 <div align="center">
 
 A curated list of delightful [Visual Studio Code](https://code.visualstudio.com/) packages and resources. For more awesomeness, check out [awesome](https://github.com/casjay/awesome).
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/casjay/awesome.svg)](https://travis-ci.org/casjay/awesome)
-</div>
-<br/>
+
+
 
 # Table of Contents
 
@@ -1289,7 +1289,7 @@ A dark syntax/workbench theme for Visual Studio Code - optimized for SCSS, HTML,
 Tinacious Design Syntax is a syntax theme that uses a bright palette of colours including pink, blue, turquoise, green, purple, and orange.
 
 #### Dark 
-  
+
 <a href="https://marketplace.visualstudio.com/items?itemName=tinaciousdesign.theme-tinaciousdesign">
   <img src="https://raw.githubusercontent.com/tinacious/vscode-tinacious-design-syntax/master/images/tinacious-syntax-theme-vscode-dark.png" width="600" />
 </a>
