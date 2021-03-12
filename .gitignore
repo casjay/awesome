@@ -1,3 +1,6 @@
+# Disable reminder in prompt
+ignoredirmessage
+
 # Compiled source #
 ###################
 *.com
