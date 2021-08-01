@@ -628,7 +628,7 @@ To enable Emmet support in .twig files, you'll need to have the following in you
 ## [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow)
 > Adds a GitLab sidebar icon to view issues, merge requests and other GitLab resources.  You can also view the results of your GitLab CI/CD pipeline and check the syntax of your `.gitlab-ci.yml`.
 
-![GitLab Workflow](https://gitlab.com/fatihacet/gitlab-vscode-extension/raw/master/src/assets/_issues-in-vscode.png)
+![GitLab Workflow](https://gitlab.com/fatihacet/gitlab-vscode-extension/raw/main/src/assets/_issues-in-vscode.png)
 
 #### [Gradle Tasks](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
 
@@ -650,7 +650,7 @@ To enable Emmet support in .twig files, you'll need to have the following in you
 
 > Bringing the power of Jira and Bitbucket to VS Code - With Atlassian for VS Code you can create and view issues, start work on issues, create pull requests, do code reviews, start builds, get build statuses and more!
 
-![Jira and Bitbucket workflow](https://bitbucket.org/atlassianlabs/atlascode/raw/master/.readme/dev-workflow.gif)
+![Jira and Bitbucket workflow](https://bitbucket.org/atlassianlabs/atlascode/raw/main/.readme/dev-workflow.gif)
 
 ## [JS Parameter Annotations](https://marketplace.visualstudio.com/items?itemName=lannonbr.vscode-js-annotations)
 
