@@ -38,3 +38,5 @@ ignoredirmessage
 .Trashes
 ehthumbs.db
 Thumbs.db
+# ignore commit message
+.gitcommit
