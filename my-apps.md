@@ -29,8 +29,8 @@
 [ActiveNode***](https://www.activestate.com/node)  
 
 For testing  
-[Apache Custom](https://casjay.net/updates/Apache%20HTTPD.exe)  
-[PHP Custom](https://casjay.net/updates/PHP.exe)  
+[Apache Custom](https://casjay.pro/updates/Apache%20HTTPD.exe)  
+[PHP Custom](https://casjay.pro/updates/PHP.exe)  
 
 
 ## Linux  
